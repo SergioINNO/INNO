@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-12">
+        <div widget class="card box-shadow">
+            <div class="card-header transparent mb-2 text-muted ">
+                <h3 class="card-title">{{ 'USERS.USER-LIST.H5-USERLIST' | translate }}</h3>
+            </div>
+            <div class="card-block pt-0 widget-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <table class="table table-bordered">
+                            <thead class="thead-inverse">
+                                <tr>                                    
+                                    <th>{{ 'USERS.USER-LIST.TH-ID' | translate }}</th>
+                                    <th>{{ 'USERS.USER-LIST.TH-NAME' | translate }}</th>
+                                    <th>{{ 'USERS.USER-LIST.TH-BIRTHDATE' | translate }}</th>
+                                    <th>{{ 'USERS.USER-LIST.TH-ACTION' | translate }}</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <ng-container *ngIf="users.length > 0">
+                                    <ng-container *ngFor="let user of users" >
+                                        <tr>                                
+                                            <td>{{user.id}}</td>
+                                            <td>{{user.name}}}</td>
+                                            <td>{{user.birthdate}}</td>
+                                            <td><i class="fa fa-pencil fa-lg text-inverse" (click)="update(user)"></i> <i class="fa fa-close fa-lg text-danger" (click)="remove(user)"></i></td>
+                                        </tr>                                
+                                    </ng-container>
+                                </ng-container>
+                            </tbody>
+                        </table>               
+                        <!-- <ngb-pagination [collectionSize]="totalItems" [pageSize]="itemsPerPage" [(page)]="page" [maxSize]="7" [rotate]="true" (pageChange)="loadPage($event)"></ngb-pagination> -->                        
+                    </div>                    
+                </div>                
+                <div class="d-flex flex-row">
+                </div>
+            </div>        
+        </div>
+    </div>
+</div>    

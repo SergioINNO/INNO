@@ -1,0 +1,40 @@
+{
+   "LANGUAGES": {
+    "ENGLISH": "INGLES",
+    "SPANISH": "ESPAÑOL"
+  },
+  "HOME":{
+    "H5-CHOOSE": "Selecciona una opción",
+    "BTN-LIST": "Listado",
+    "BTN-ADD": "Añadir"
+  },
+  "HEADER":{
+    "LB-TRANSLATION": "Traducción"
+  },
+  "USERS":{
+    "USER-ADD":{
+      "H3-CREATE": "Crear usuario",
+      "LB-NAME": "Nombre",
+      "LB-BIRTHDATE": "Cumpleaños",      
+      "BTN-SAVE": "Guardar",
+      "LB-SUCCESS": "Usuario creado correctamente"
+    },
+    "USER-LIST":{
+      "H5-USERLIST": "Listado de usuarios",
+      "H4-DELETE": "Eliminar usuario",
+      "DIV-QUESTION-DEL": "¿Desea eliminar el usuario?",
+      "TOOLTIP-EDIT": "Editar usuario",
+      "TH-ID": "ID",
+      "TH-NAME": "Nombre",
+      "TH-BIRTHDATE": "Cumpleaños",
+      "TH-ACTION": "Acción"
+    },
+    "USER-UPDATE":{
+      "H3-UPDATE": "Modificar usuario",
+      "LB-NAME": "Nombre",
+      "LB-BIRTHDATE": "Cumpleaños",      
+      "BTN-SAVE": "Guardar",
+      "LB-SUCCESS": "Usuario modificado correctamente"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div class="wrapper-inner">
+    <app-header></app-header> 
+    <div class= "main-content">
+        <div filter class="card box-shadow widget">
+            <div class="card-header transparent mb-2 text-muted text-center">
+                <h5 class="card-title">{{ 'HOME.H5-CHOOSE' | translate }}</h5>
+            </div>
+            <div class="card-block pt-0 widget-body">                
+                <div class="row">
+                    <div class="col-6 mb-3 text-center"> 
+                        <button class="btn btn-info" type="button" (click)="add()" >{{ 'HOME.BTN-ADD' | translate }}</button>                        
+                    </div>     
+                    <div class="col-6 mb-3 text-center"> 
+                        <button class="btn btn-success" type="button" (click)="list()" >{{ 'HOME.BTN-LIST' | translate }}</button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-content">
+                <div class="card border-0 box-shadow rounded-0">
+                    <router-outlet></router-outlet>         
+                </div>
+            </div>
+        </div>        
+    </div>   
+</div>

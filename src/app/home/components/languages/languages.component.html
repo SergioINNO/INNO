@@ -1,0 +1,13 @@
+<div class="dropdown d-inline-block">
+    <a class="dropdown-toggle no-caret pl-2 pr-2" id="flags-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="flag-icon" [style.background-image]="'url(' + backgroundImage + ')'"></span>
+    </a>
+
+    <div class="dropdown-menu dropdown-menu-right rounded-0 mt-3 p-0 box-shadow" aria-labelledby="flags-menu">
+        <div class="flags-menu">
+            <a class="dropdown-item" (click)="showFlag('en')"><span class="flag-icon flag-icon-en mr-2"></span> {{ 'LANGUAGES.ENGLISH' | translate }}</a> 
+            <a class="dropdown-item" (click)="showFlag('es')"><span class="flag-icon flag-icon-es mr-2"></span> {{ 'LANGUAGES.SPANISH' | translate }}</a>        
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,40 @@
+﻿{
+  "LANGUAGES": {
+    "ENGLISH": "ENGLISH",
+    "SPANISH": "SPANISH"
+  },
+  "HOME":{
+    "H5-CHOOSE": "Select an option",
+    "BTN-LIST": "List",
+    "BTN-ADD": "Add"
+  },
+  "HEADER":{
+    "LB-TRANSLATION": "Translation"
+  },
+  "USERS":{
+    "USER-ADD":{
+      "H3-CREATE": "Create user",
+      "LB-NAME": "Name",
+      "LB-BIRTHDATE": "Birthdate",
+      "BTN-SAVE": "Save",
+      "LB-SUCCESS": "User created successfully"
+    },
+     "USER-LIST": {
+      "H5-USERLIST": "User list",
+      "H4-DELETE": "Delete user",
+      "DIV-QUESTION-DEL": "Do you want to remove the user?",
+      "TOOLTIP-EDIT": "Edit user",
+      "TH-ID": "ID",
+      "TH-NAME": "Name",
+      "TH-BIRTHDATE": "Birthdate",
+      "TH-ACTION": "Action"
+    },
+    "USER-UPDATE":{
+      "H3-UPDATE": "Update user",
+      "LB-NAME": "Name",
+      "LB-BIRTHDATE": "Birthdate",
+      "BTN-SAVE": "Save",
+      "LB-SUCCESS": "User modified successfully"
+    }
+  }
+}
